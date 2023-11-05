@@ -106,7 +106,7 @@ for var in $(seq 1 10)
 	cat "$fdata" | awk -F"\t" -v uids="$uidset" 'BEGIN {split(uids, arr, " "); for (i in arr) u[arr[i]] = 1}
 	$1 in u {movies[$2]+=$3; count[$2]++}
 	END {for (movie in movies) {average = movies[movie] / count[movie]; print movie, average}}' | sort -n 
-
+	echo""
 
 	fi
 	;;
