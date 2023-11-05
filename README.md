@@ -9,6 +9,7 @@ OSS project1 - Bash Shell Programming
 2.	프로젝트 설명
 3.	프로젝트 중 겪은 어려움이나 차후 개선할 부분
 
+
 1.	프로젝트 소개
 -	강의를 통해 배운 Bash Shell Script 문법에 익숙해지는 것이 이 프로젝트의 목적입니다.
 -	Linux 환경에서 Bash 기능을 사용하여 다양한 데이터 처리 기능을 적재적소에 활용할 수 있습니다.
